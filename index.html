@@ -11,21 +11,20 @@
 
 	<style>
 
-#resumeTitle {
-	padding-bottom: .7em;
-}
-
-	#headerInfo {
-		padding-top: 6em;
-		padding-bottom: 2em;
-	}
-	.categoryTitle {
-		border-bottom: 1px solid gray;
-	}
-
 	li, p {
 		font-size: 16px;
 		padding-top: .5em;
+	}
+
+	img {
+		margin-top:.5em;
+		border: 1px solid #CCC;
+		width: 230px;
+		height: 100px;
+	}
+
+	.categoryTitle {
+		border-bottom: 1px solid gray;
 	}
 
 	.experience {
@@ -33,50 +32,50 @@
 		margin-bottom: 20px;
 	}
 
-	body {
-	}
-
 	.container {
 		margin-bottom:10em;
 	}
 
-.container > .row {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
+	.container > .row {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
 
-img {
-	margin-top:.5em;
-	border: 1px solid #CCC;
-	width: 230px;
-	height: 100px;
-}
+
+	#resumeTitle {
+		padding-bottom: .7em;
+	}
+
+	#headerInfo {
+		padding-top: 6em;
+		padding-bottom: 2em;
+	}
 
 	</style>
 
 </head>
 <body>
-	    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">@AndrwYng</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="http://andrwyng.com">Home</a></li>
-              <li><a href="http://github.com/andrw">Github</a></li>
-              <li><a href="http://twitter.com/andrwyng">Twitter</a></li>
-              <li><a href="http://andrwyng.com/wordpress">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="#">@AndrwYng</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="active"><a href="http://andrwyng.com">Home</a></li>
+						<li><a href="http://github.com/andrw">Github</a></li>
+						<li><a href="http://twitter.com/andrwyng">Twitter</a></li>
+						<li><a href="http://andrwyng.com/wordpress">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -102,27 +101,29 @@ img {
 				</div>
 			</div>
 		</div>
-			<!-- Start RESUME -->
+		<!-- Start RESUME -->
 		<div class="row">
 			<div class="span12" id="resumeTitle">
-				<h1>R&#233;sum&#233;</h1>
+				<h1>R&#233;sum&#233; <a href="Andrew_Yang_Resume.pdf"><font size=3>PDF</font></a></h1> 
 			</div>
 			<div class="span12">
 				<h2 class="categoryTitle">Summary</h2>
 				<p>Computer Science student at the University of California, San Diego. Programmer, web developer, and tech enthusiast. Looking for employment in San Diego and the Bay Area, ideally as a Program Manager or Application Developer. 
 				</p>
 			</div>
-			</div>
-			<div class="row">
+		</div>
+
+		<!--- Start EXPERIENCE -->
+		<div class="row">
 			<div class="span12">
 				<h2 class="categoryTitle">Experience</h2>
-				<div class="row"> <!-- EXPERIENCE ROW -->
+				<div class="row">
 					<div class="span3 experience">
 						<img src="images/peace.png"> 
 					</div>
 					<div class="span9 experience">
 						<h3>UCSD: Division of Biomedical Informatics</h3>
-						<h4>PEACE - Pictogram Evaluation and Authoring Collaboration Environment</h4>
+						<h4>Web Developer - April 2012 to August 2012</h4> 
 						<p>
 							Developed tools in HTML5 and Javascript using to allow users to draw images to use as pictograms to test medicine-use recognition. Also developed a tool to combine pictograms together for conditional usages (ie take pill with water in the morning). Improved on existing database and framework, using PHP and MySQL.
 						</p>
@@ -134,7 +135,7 @@ img {
 					</div>
 					<div class="span9 experience">
 						<h3>WeatherTmr</h3>
-						<h4>Personal Project</h4>
+						<h4>Personal Project - Dec 2012 to Now</h4> 
 						<p>
 							Built a service which, given your phone number and zipcode, checks <b>tomorrow's</b> weather in your area daily. Should the weather require any special preparation (ie rain, snow, extremely hot) it will text you the day before it happens, letting you know "Look's like it'll rain tomorrow - better bring a raincoat!". Built using HTML/CSS, PHP, MySQL, and Javascript. Used API's from Twilio and Wunderground.					
 						</p>
@@ -146,7 +147,7 @@ img {
 					</div>
 					<div class="span9 experience">
 						<h3>Advanced Coherent Technologies</h3>
-						<h4>Image Processing</h4>
+						<h4>Software Engineer (Intern) - June 2011 to Oct 2011</h4> 
 						<p>
 							Developed a program in C++ to "register" (align) multiple images so that they align and can be manipulated. This was used to align infrared, red, blue, and green-filtered images to extract "hidden" objects in images (ie dolphins in water).
 						</p>
@@ -158,42 +159,43 @@ img {
 					</div>
 					<div class="span9 experience">
 						<h3>SimplyMods.com</h3>
-						<h4>Online Store Owner</h4>
+						<h4>Online Store Owner - Aug 2009 to Sept 2010</h4> 
 						<p>
-							Developed a program in C++ to "register" (align) multiple images so that they align and can be manipulated. This was used to align infrared, red, blue, and green-filtered images to extract "hidden" objects in images (ie dolphins in water).		</p>	
-						</div>
+							Opened an online store and imported rare and unique electronics from China, Hong Kong, and Japan. Found and utilized different e-commerce solutions, as well as managing all order/billing/shipping processing. Developed engaging community for these electronics and grew to $100,000 revenue in 9 months.
+						</p>	
 					</div>
 				</div>
-</div>
-<div class="row">
+			</div>
+		</div>
+		<div class="row">
 
-				<div class="span12">
-					<h2 class="categoryTitle">Education</h2>
-					<h3>University of California, San Diego</h3>
-					<h4>Sept 2010 - June 2013</h4>
-					<ul>
-						<li>Studying Computer Science</li>
-						<li>Management Science and Entrepreneurship classes taken</li>
-					</ul>
-					<h3>Foothill College, Los Altos</h3>
-					<h4>Sept 2008 - June 2010</h4>
-					<ul>
-						<li>Studied Biochemistry</li>
-						<li>HTML/CSS and PHP/MySQL classes taken</li>
-					</ul>
-				</div>
-</div>
-<div class="row">
-				<div class="span12">
-					<h2 class="categoryTitle">Other Skills and Experiences</h2>
-					<ul>
-						<li>Computer Science and Engineering Society (CSES) Vice President (2011-2013)</li>
-						<li>Languages - Java, C/C++, HTML, CSS, Javascript, PHP, MySQL</li>
-						<li>Amazon Web Services (AWS) and personal server experience</li>
-						<li>Mac OS, Linux, and Windows proficient</li>
+			<div class="span12">
+				<h2 class="categoryTitle">Education</h2>
+				<h3>University of California, San Diego</h3>
+				<h4>Sept 2010 - June 2013</h4>
+				<ul>
+					<li>Studying Computer Science</li>
+					<li>Management Science and Entrepreneurship classes taken</li>
+				</ul>
+				<h3>Foothill College, Los Altos</h3>
+				<h4>Sept 2008 - June 2010</h4>
+				<ul>
+					<li>Studied Biochemistry</li>
+					<li>HTML/CSS and PHP/MySQL classes taken</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12">
+				<h2 class="categoryTitle">Other Skills and Experiences</h2>
+				<ul>
+					<li>Computer Science and Engineering Society (CSES) Vice President (2011-2013)</li>
+					<li>Languages - Java, C/C++, HTML, CSS, Javascript, PHP, MySQL</li>
+					<li>Amazon Web Services (AWS) and personal server experience</li>
+					<li>Mac OS, Linux, and Windows proficient</li>
 
-					</ul>
-				</div> <!-- close main div row -->
-			</div> <!-- close div container -->
-		</body>
-		</html>
+				</ul>
+			</div> <!-- close main div row -->
+		</div> <!-- close div container -->
+	</body>
+	</html>
